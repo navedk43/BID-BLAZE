@@ -52,18 +52,18 @@ Make sure you have the following installed on your machine:
 
 - In the project directory, you can run:
   
-  ```bash
-  npm run start
+    ```bash
+    npm run start
 This command starts the backend server.
-
-   bash
-   npm run dev
+ 
+     ```bash
+     npm run dev
 This command starts the frontend development server.
-
+<br>
 Open http://localhost:3000 to view it in your browser.
 
 ### Built With
-**Frontend**: React.js
-**Backend**: Node.js, Express.js
-**Database**: MongoDB
-**Authentication**: JWT
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT
