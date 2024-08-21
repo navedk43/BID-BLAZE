@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Bid Blaze - An E-Auction Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bid Blaze is an online platform where users can auction their products and place bids on items they wish to purchase. The platform ensures a seamless and secure transaction process for both buyers and sellers.
 
-## Available Scripts
+## User Panel
 
-In the project directory, you can run:
+- **Gmail:** `user@gmail.com`
+- **Password:** `12345`
 
-### `npm start`
+## Admin Panel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Gmail:** `admin@gmail.com`
+- **Password:** `12345`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Note:** If the Gmail is not working, please check the status in MongoDB and change it to `1` from `0`.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Users can register and log in to the platform.
+- Sellers can list their products for auction.
+- Buyers can place bids on available products.
+- Real-time updates on the current highest bid.
+- Admin can manage users and auctions.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy of the project up and running, follow these steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have the following installed on your machine:
+- Node.js
+- MongoDB
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/bidblaze.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
+   ```bash
+   cd bidblaze
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies:
+   ```bash
+   npm install
+   
+4. Set up environment variables in a .env file.
+   
+### Running the App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- In the project directory, you can run:
+  
+  ```bash
+  npm run start
+This command starts the backend server.
 
-## Learn More
+   bash
+   npm run dev
+This command starts the frontend development server.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open http://localhost:3000 to view it in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Built With
+**Frontend**: React.js
+**Backend**: Node.js, Express.js
+**Database**: MongoDB
+**Authentication**: JWT
