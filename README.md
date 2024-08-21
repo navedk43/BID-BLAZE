@@ -56,13 +56,12 @@ Make sure you have the following installed on your machine:
     npm run start
 This command starts the backend server.
  
-     ```bash
      npm run dev
 This command starts the frontend development server.
 <br>
 Open http://localhost:3000 to view it in your browser.
 
-### Built With
+### Built With : 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
