@@ -1,0 +1,16 @@
+#ptable
+{
+    height: 170px;
+    width: 600px;
+}
+
+/* css for bid buttons */
+.bid-btn-closed{
+    background: rgb(255, 59, 59);
+    color: rgb(0, 0, 0);
+}
+
+.bid-btn-run{
+    background: rgba(19, 210, 19, 0.662);
+    color: rgb(0, 0, 0);
+}
